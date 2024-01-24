@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nani{
+            height: px;
+            width: 400px;
+            height: 350px;
+            border: 1px solid black;
+            position: relative;
+            top: 25px;
+            left: 80px;
+        }
+        #adiyogi:checked~.nani{
+            background-image: url("https://th.bing.com/th/id/OIP.QqX1akPdlL5rHDF91snGzQHaEK?w=294&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7");
+            width: 450px;
+            height: 350px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #ked:checked~.nani{
+            background-image: url("https://th.bing.com/th/id/OIP.X_VKkZ_2JDE29ghiXAJ4PAHaJP?w=205&h=181&c=7&r=0&o=5&dpr=1.4&pid=1.7");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 450px;
+            height: 350px;
+
+
+        }
+        #puri:checked~.nani{
+          background-image: url("https://www.templepurohit.com/wp-content/uploads/2015/11/Puri-Jagannath-Temple-Puri-Odisha.jpg");
+          background-position: 1px;
+          background-size: cover;
+          width: 400px;
+         height: 350px;
+        }
+
+        #tirupati:checked~.nani{
+            background-image: url("https://th.bing.com/th?id=OIP.jqUoOlNj4vPw8HhmtA4jfwHaD4&w=345&h=180&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2");
+            background-size: cover;
+             width: 400px;
+            height: 350px;
+            background-position: 1px;
+
+        }
+
+        #Trivandrum:checked~.nani{
+            background-image: url("https://th.bing.com/th/id/OIP.ILa7wsZgV2QaJ-O9tM1vgQHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7");
+            background-size: cover;
+             width: 400px;
+            height: 350px;
+            background-position: 1px;
+        }
+
+        #sabarimala:checked~.nani{
+            background-image: url("https://th.bing.com/th/id/R.a4f7727be42fb4d3646ce56ca4264a7f?rik=9ZI2beLiYWSkLQ&riu=http%3a%2f%2fdiscoveringindia.net%2fwp-content%2fuploads%2f2016%2f11%2fsabarimala_temple.jpg&ehk=RTxD4O9aLwlzRL8iomtjGdELwinxqBbWHQw2CQsHtqk%3d&risl=&pid=ImgRaw&r=0");
+            background-size: cover;
+             width: 400px;
+            height: 350px;
+            background-position: 1px;
+        }
+
+        #dwarka:checked~.nani{
+            background-image: url("https://th.bing.com/th?id=OIP.k1jb8CSUlq7MbHVzvILxNQHaFw&w=283&h=220&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2");
+            background-size: cover;
+             width: 400px;
+            height: 350px;
+            background-position: 1px;
+        }
+        .md{
+            border: 1px solid black;
+            height: 450px;
+            width: 650px;
+            padding: 25px;
+            background-color: lightcyan;
+            margin: 20px auto ;
+        }
+        span:hover{
+            background-color: rgb(136, 211, 24);
+            color: red;
+            font-size: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="md">
+        <input id="ked" type="radio"name="img"><span style="color: red;">kedarnath</span>
+        <input id="adiyogi"  type="radio" name="img"><span style="color: purple;">adiyogi</span>
+        <input id="puri"  type="radio" name="img"><span style="color: blueviolet;">Puri Jagannadh</span>
+        <input id="tirupati"  type="radio" name="img"><span style="color: brown;">tirupati</span>
+        <input id="Trivandrum"  type="radio" name="img"><span style="color: deeppink;">Trivandrum</span>
+        <input id="sabarimala"  type="radio" name="img"><span style="color: olive;">sabarimala</span>
+        <input id="dwarka"  type="radio" name="img"><span style="color: teal;">dwarka</span> 
+        <div class="nani"> </div>
+</div>
+
+</body>
+</html>
